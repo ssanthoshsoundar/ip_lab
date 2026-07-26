@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Sweet Scoops</title>
+
+<style>
+
+/* Global Styles */
+
+body {
+
+font-family: Arial, sans-serif;
+
+background-color: #ffccd5; /* darker pastel pink */
+
+color: #4a4a4a;
+
+margin: 0;
+
+text-align: center;
+
+}
+
+/* Headings */
+
+h1 {
+
+color: #b03060;
+
+}
+
+h2 {
+
+color: #d63384;
+
+}
+
+/* Navigation */
+
+nav {
+
+margin: 20px auto;
+
+width: 80%;
+
+border: 2px solid #d63384;
+
+padding: 15px;
+
+border-radius: 10px;
+
+background-color: #ffe6ec;
+
+}
+
+nav table {
+
+margin: 0 auto;
+
+}
+
+nav td {
+
+padding: 10px;
+
+}
+
+nav a {
+
+text-decoration: none;
+
+color: #b03060;
+
+font-weight: bold;
+
+}
+
+nav a:hover {
+
+color: #800040;
+
+}
+
+
+/* Sections */
+
+section {
+
+margin: 30px auto;
+
+width: 80%;
+
+border: 2px solid #d63384;
+
+padding: 20px;
+
+border-radius: 10px;
+
+background-color: #ffe6ec;
+
+clear: both;
+
+}
+
+/* Tables */
+
+table {
+
+border-collapse: collapse;
+
+margin: 0 auto;
+
+}
+
+td {
+
+padding: 10px;
+
+text-align: center;
+
+}
+
+/* Images */
+
+img {
+
+border-radius: 8px;
+
+margin: 10px;
+
+}
+
+/* Buttons and Form Controls */
+
+button,
+
+input[type="submit"],
+
+input[type="reset"] {
+
+background-color: #ff99aa;
+
+color: white;
+
+border: none;
+
+padding: 8px 16px;
+
+border-radius: 5px;
+
+cursor: pointer;
+
+margin: 10px;
+
+}
+
+button:hover,
+
+input[type="submit"]:hover,
+
+input[type="reset"]:hover {
+
+background-color: #d63384;
+
+}
+
+/* Footer */
+
+footer {
+
+background-color: #ffb6c1;
+
+padding: 10px;
+
+color: white;
+
+text-align: center;
+
+margin-top: 30px;
+
+border-top: 2px solid #d63384;
+
+}
+
+/* Location Section */
+
+#stores li {
+
+list-style-type: none;
+
+margin: 5px 0;
+
+}
+
+#stores li.highlight {
+
+color: #d63384;
+
+font-weight: bold;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<table>
+
+<tr><td><h1><b>Sweet Scoops</b></h1></td></tr>
+
+</table>
+
+<hr>
+
+<!-- Navigation -->
+
+<nav>
+
+<table width="100%" border="0" cellpadding="8">
+
+<tr>
+
+<td><a href="#home">Home</a></td>
+
+<td><a href="#categories">Categories</a></td>
+
+<td><a href="#flavors">Flavors</a></td>
+
+<td><a href="#order">Order</a></td>
+
+<td><a href="#video">Video</a></td>
+
+<td><a href="#location">Location</a></td>
+
+<td><a href="#contact">Contact</a></td>
+
+</tr>
+
+</table>
+
+</nav>
+
+<hr>
+
+<!-- Home -->
+
+<section id="home">
+
+<style>
+
+/* Home section font styles */
+
+#home {
+
+font-family: "Georgia", serif;
+
+}
+
+#home h2 {
+
+font-family: "Courier New";
+
+color: #b03060;
+
+}
+
+#home p {
+
+font-family: "Verdana", sans-serif;
+
+font-size: 18px;
+
+color: #b03060;
+
+line-height: 1.6;
+
+}
+
+</style>
+
+<h2>Welcome to Sweet Scoops</h2>
+
+<p>Sweet Scoops is a delightful ice cream shop that specializes exclusively in creamy scoops. <br>
+
+From classic vanilla to rich chocolate and fresh strawberry,
+
+every scoop is crafted to bring joy in its simplest form. <br>
+
+With a pastel pink theme and a focus on pure flavors,
+
+Sweet Scoops is the perfect place to enjoy timeless ice cream indulgence.
+
+</p>
+
+</section>
+
+<hr>
+
+<!-- Categories -->
+
+<section id="categories">
+
+<h2>Shop by Category</h2>
+
+<a href="https://baskinrobbinsindia.com/" target="_blank">
+
+<img src="categories.png" alt="Ice Cream Categories" width="1000" height="500">
+
+</a>
+
+</section>
+
+<hr>
+
+<!-- Featured Flavors -->
+
+<section id="flavors">
+
+<h2>Featured Flavors</h2>
+
+<table border="1" cellpadding="30" cellspacing="5">
+
+<tr>
+
+<td><img src="vanilla.jpeg" width="300" height="300"><br><b>Classic Vanilla</b></td>
+
+<td><img src="chocolate.jpeg" width="300" height="300"><br><b>Rich Chocolate</b></td>
+
+<td><img src="strawberry.jpeg" width="300" height="300"><br><b>Fresh Strawberry</b></td>
+
+</tr>
+
+</table>
+
+</section>
+
+<hr>
+
+<!-- Video -->
+
+<section id="video">
+
+<h2>Our Ice Cream Range</h2>
+
+<video width="730" height="400" controls>
+
+<source src="icecream.mp4" type="video/mp4">
+
+Your browser does not support video.
+
+</video>
+
+</section>
+
+<hr>
+
+
+<!-- Audio -->
+
+<section>
+
+<h2>Audio</h2>
+
+<audio controls>
+
+<source src="jingle.mp3" type="audio/mpeg">
+
+Your browser does not support audio.
+
+</audio>
+
+</section>
+
+<hr>
+
+<!-- Order Form -->
+
+<section id="order">
+
+<h2>Order Form</h2>
+
+<form>
+
+<table cellpadding="5" border="0">
+
+<tr><td>Name</td><td><input type="text" required></td></tr>
+
+<tr><td>Email</td><td><input type="email" required></td></tr>
+
+<tr><td>Phone</td><td><input type="tel"></td></tr>
+
+<tr><td>Product</td><td>
+
+<select>
+
+<option>Vanilla</option>
+
+<option>Chocolate</option>
+
+<option>Strawberry</option>
+
+<option>Mango</option>
+
+<option>Pistachio</option>
+
+</select></td></tr>
+
+<tr><td>Quantity</td><td><input type="number" min="1" max="10"></td></tr>
+
+<tr><td>Delivery Date</td><td><input type="date"></td></tr>
+
+<tr><td>Address</td><td><textarea rows="4" cols="25"></textarea></td></tr>
+
+<tr><td>Payment</td><td>
+
+<input type="radio" name="pay"> Cash
+
+<input type="radio" name="pay"> UPI
+
+<input type="radio" name="pay"> Card
+
+</td></tr>
+
+<tr><td colspan="2">
+
+<input type="submit" value="Place Order">
+
+<input type="reset" value="Clear">
+
+</td></tr>
+
+</table>
+
+</form>
+
+</section>
+
+<hr>
+
+<!-- Location -->
+
+<section id="location">
+
+<h2>Find Nearby Outlets</h2>
+
+<button onclick="getLocation()">Get Location</button>
+
+<p id="demo"></p>
+
+<ul id="stores"></ul>
+
+</section>
+
+<hr>
+
+<!-- Contact -->
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p>Email : support@sweetscoops.com</p>
+
+<p>Phone : +91 9876543210</p>
+
+</section>
+
+<hr>
+
+<!-- Footer -->
+
+<footer>
+
+<table width="100%" border="0" cellpadding="10">
+
+<tr><td><b>&copy; 2026 Sweet Scoops - Ice Cream Shop</b></td></tr>
+
+</table>
+
+</footer>
+
+<style>
+
+/* Footer styling */
+
+footer {
+
+background-color: #ffb6c1;
+
+padding: 10px;
+
+color: white;
+
+text-align: center;
+
+margin-top: 30px;
+
+border-top: 2px solid #d63384;
+
+}
+
+/* Location section list */
+
+#stores {
+
+list-style-type: none;
+
+padding: 0;
+
+}
+
+#stores li {
+
+margin: 5px 0;
+
+}
+
+#stores li.highlight {
+
+color: #d63384;
+
+font-weight: bold;
+
+}
+
+</style>
+
+<script>
+
+// Hardcoded Baskin Robbins outlets in Madurai
+
+const outlets = [
+
+{ name: "Anna Nagar Outlet", address: "Vandiyur Main Road, Anna Nagar, Madurai", lat: 9.935, lon: 78.145 },
+
+{ name: "KK Nagar Outlet", address: "80 Feet Road, KK Nagar, Madurai", lat: 9.930, lon: 78.120 },
+
+{ name: "Thiruvalluvar Nagar Outlet", address: "TVS Nagar Road, Thiruvalluvar Nagar, Madurai", lat: 9.940, lon: 78.110 }
+
+];
+
+
+var x = document.getElementById("demo");
+
+var storeList = document.getElementById("stores");
+
+
+function getLocation() {
+
+if (navigator.geolocation) {
+
+navigator.geolocation.getCurrentPosition(showPosition, showError);
+
+} else {
+
+x.innerHTML = "Geolocation not supported.";
+
+}
+
+}
+
+function showPosition(position) {
+
+const userLat = position.coords.latitude;
+
+const userLon = position.coords.longitude;
+
+x.innerHTML = "Your Location:<br>Latitude : " + userLat + "<br>Longitude : " + userLon;
+
+// Find nearest outlet
+
+let nearest = null;
+
+let minDist = Infinity;
+
+outlets.forEach(outlet => {
+
+const dist = getDistance(userLat, userLon, outlet.lat, outlet.lon);
+
+if (dist < minDist) {
+
+minDist = dist;
+
+nearest = outlet;
+
+}
+
+});
+
+storeList.innerHTML = "";
+
+outlets.forEach(outlet => {
+
+const dist = getDistance(userLat, userLon, outlet.lat, outlet.lon);
+
+const li = document.createElement("li");
+
+li.innerHTML = `<b>${outlet.name}</b> - ${outlet.address} (Approx. ${dist.toFixed(2)} km away)`;
+
+if (outlet === nearest) {
+
+li.classList.add("highlight"); // CSS selector highlights nearest
+
+}
+
+storeList.appendChild(li);
+
+});
+
+}
+
+
+// Haversine formula
+
+function getDistance(lat1, lon1, lat2, lon2) {
+
+const R = 6371; // Earth radius in km
+
+const dLat = (lat2 - lat1) * Math.PI / 180;
+
+const dLon = (lon2 - lon1) * Math.PI / 180;
+
+const a =
+
+Math.sin(dLat/2) * Math.sin(dLat/2) +
+
+Math.cos(lat1 * Math.PI/180) * Math.cos(lat2 * Math.PI/180) *
+
+Math.sin(dLon/2) * Math.sin(dLon/2);
+
+const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+
+return R * c;
+
+}
+
+// Error handler
+
+function showError(error) {
+
+switch(error.code) {
+
+case error.PERMISSION_DENIED:
+
+x.innerHTML = "User denied the request for Geolocation.";
+
+break;
+
+case error.POSITION_UNAVAILABLE:
+
+x.innerHTML = "Location information is unavailable.";
+
+break;
+
+case error.TIMEOUT:
+
+x.innerHTML = "The request to get user location timed out.";
+
+break;
+
+default:
+
+x.innerHTML = "An unknown error occurred.";
+
+break;
+
+}
+
+}
+
+</script>
+
+</body>
+
+</html>
+
+
