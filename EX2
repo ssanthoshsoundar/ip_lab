@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Sweet Scoops - Ice Cream Shop</title>
+
+<style>
+
+body {
+
+background-color: #ffccd5; /* darker pastel pink */
+
+text-align: center; /* center all content */
+
+font-family: Arial, sans-serif;
+
+}
+
+table {
+
+margin: 0 auto; /* center tables */
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<table>
+
+<tr>
+
+<td>
+
+<h1><b>Sweet Scoops</b></h1>
+
+</td>
+
+</tr>
+
+</table>
+
+<hr>
+
+
+<!-- Navigation -->
+
+<table width="80%" border="0" cellpadding="8">
+
+<tr align="center">
+
+<td><a href="#home">Home</a></td>
+
+<td><a href="#menu">Flavors</a></td>
+
+<td><a href="#menu">Sundaes</a></td>
+
+<td><a href="#menu">Shakes</a></td>
+
+<td><a href="#order">Order</a></td>
+
+<td><a href="#location">Find Us</a></td>
+
+<td><a href="#contact">Contact</a></td>
+
+</tr>
+
+</table>
+
+<hr>
+
+
+<!-- Home -->
+
+<section id="home">
+
+<h2>Welcome to Sweet Scoops</h2>
+
+<p>
+
+Sweet Scoops is a delightful ice cream shop that specializes exclusively in creamy scoops. <br>
+
+From classic vanilla to rich chocolate and fresh strawberry, <br>
+
+every scoop is crafted to bring joy in its simplest form. <br>
+
+With a pastel pink theme and a focus on pure flavors,
+
+Sweet Scoops is the perfect place <br> to enjoy timeless ice cream indulgence.
+
+</p>
+
+</section>
+
+<hr>
+
+
+<!-- Categories -->
+
+<section id="categories">
+
+<h2>Shop by Category</h2>
+
+<img src="categories.png"
+
+alt="Ice Cream Categories"
+
+usemap="#shopmap"
+
+width="1000"
+
+height="500">
+
+<map name="shopmap">
+
+<area shape="rect" coords="0,0,200,250" href="#menu" alt="Cones">
+
+<area shape="rect" coords="200,0,400,250" href="#menu" alt="Sundaes">
+
+<area shape="rect" coords="400,0,600,250" href="#menu" alt="Shakes">
+
+</map>
+
+</section>
+
+<hr>
+
+
+<!-- Featured Flavors -->
+
+<h2>Featured Flavors</h2>
+
+<table border="1" cellpadding="30" cellspacing="5">
+
+<tr>
+
+<td align="center" valign="top">
+
+<img src="vanilla.jpeg" width="300" height="300" alt="Vanilla Scoop"><br><br>
+
+<b>Classic Vanilla</b><br>
+
+</td>
+
+<td align="center" valign="top">
+
+<img src="chocolate.jpeg" width="300" height="300" alt="Chocolate Scoop"><br><br>
+
+<b>Rich Chocolate</b><br>
+
+</td>
+
+<td align="center" valign="top">
+
+<img src="strawberry.jpeg" width="300" height="300" alt="Strawberry Scoop"><br><br>
+
+<b>Fresh Strawberry</b><br>
+
+</td>
+
+</tr>
+
+</table>
+
+<hr>
+
+
+<!-- Video -->
+
+<section id="video">
+
+<h2>Our Ice Cream Video</h2>
+
+<video width="730" height="400" controls>
+
+<source src="icecream.mp4" type="video/mp4">
+
+Your browser does not support video.
+
+</video>
+
+</section>
+
+<hr>
+
+
+<!-- Audio -->
+
+<section>
+
+<h2>Sweet Scoops Jingle</h2>
+
+<audio controls>
+
+<source src="jingle.mp3" type="audio/mpeg">
+
+Your browser does not support audio.
+
+</audio>
+
+</section>
+
+<hr>
+
+
+<!-- Order Form -->
+
+<section id="order">
+
+<h2>Order Form</h2>
+
+<form>
+
+<table cellpadding="5" border="0">
+
+<tr><td>Name</td><td><input type="text" required></td></tr>
+
+<tr><td>Email</td><td><input type="email" required></td></tr>
+
+<tr><td>Phone</td><td><input type="tel"></td></tr>
+
+<tr><td>Product</td>
+
+<td>
+
+<select>
+
+<option>Vanilla</option>
+
+<option>Chocolate</option>
+
+<option>Strawberry</option>
+
+<option>Mango</option>
+
+<option>Pistachio</option>
+
+</select>
+
+</td></tr>
+
+<tr><td>Quantity</td><td><input type="number" min="1" max="10"></td></tr>
+
+<tr><td>Delivery Date</td><td><input type="date"></td></tr>
+
+<tr><td>Address</td><td><textarea rows="4" cols="25"></textarea></td></tr>
+
+<tr><td>Payment</td>
+
+<td>
+
+<input type="radio" name="pay"> Cash
+
+<input type="radio" name="pay"> UPI
+
+<input type="radio" name="pay"> Card
+
+</td></tr>
+
+<tr><td colspan="2">
+
+<input type="submit" value="Place Order">
+
+<input type="reset" value="Clear">
+
+</td></tr>
+
+</table>
+
+</form>
+
+</section>
+
+<hr>
+
+
+<!-- Location -->
+
+<section id="location">
+
+<h2>Find Our Shop</h2>
+
+<button onclick="getLocation()">Get Location</button>
+
+<p id="demo"></p>
+
+</section>
+
+<hr>
+
+
+<!-- Contact -->
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p>Email : support@sweetscoops.com</p>
+
+<p>Phone : +91 9876543210</p>
+
+</section>
+
+<hr>
+
+
+<!-- Footer -->
+
+<footer>
+
+<table width="100%" border="0" cellpadding="10">
+
+<tr>
+
+<td align="center">
+
+<b>&copy; 2026 Sweet Scoops - Ice Cream Shop</b>
+
+</td>
+
+</tr>
+
+</table>
+
+</footer>
+
+
+<script>
+
+// Baskin Robbins outlets in Madurai with coordinates
+
+const outlets = [
+
+{
+
+name: "Anna Nagar Outlet",
+
+address: "Vandiyur Main Road, Anna Nagar, Madurai",
+
+lat: 9.935,
+
+lon: 78.145
+
+},
+
+{
+
+name: "KK Nagar Outlet",
+
+address: "80 Feet Road, KK Nagar, Madurai",
+
+lat: 9.930,
+
+lon: 78.120
+
+},
+
+{
+
+name: "Thiruvalluvar Nagar Outlet",
+
+address: "TVS Nagar Road, Thiruvalluvar Nagar, Madurai",
+
+lat: 9.940,
+
+lon: 78.110
+
+}
+
+];
+
+
+var x = document.getElementById("demo");
+
+
+function getLocation() {
+
+if (navigator.geolocation) {
+
+navigator.geolocation.getCurrentPosition(showPosition);
+
+} else {
+
+x.innerHTML = "Geolocation not supported.";
+
+}
+
+}
+
+
+function showPosition(position) {
+
+const userLat = position.coords.latitude;
+
+const userLon = position.coords.longitude;
+
+
+// Find nearest outlet
+
+let nearest = null;
+
+let minDist = Infinity;
+
+
+outlets.forEach(outlet => {
+
+const dist = getDistance(userLat, userLon, outlet.lat, outlet.lon);
+
+if (dist < minDist) {
+
+minDist = dist;
+
+nearest = outlet;
+
+}
+
+});
+
+
+x.innerHTML =
+
+"Your Location:<br>Latitude : " + userLat +
+
+"<br>Longitude : " + userLon +
+
+"<br><br><b>Nearest Baskin Robbins Outlet:</b><br>" +
+
+nearest.name + "<br>" + nearest.address +
+
+"<br>Approx. Distance: " + minDist.toFixed(2) + " km";
+
+}
+
+
+// Haversine formula to calculate distance between two coordinates
+
+function getDistance(lat1, lon1, lat2, lon2) {
+
+const R = 6371; // Earth radius in km
+
+const dLat = (lat2 - lat1) * Math.PI / 180;
+
+const dLon = (lon2 - lon1) * Math.PI / 180;
+
+const a =
+
+Math.sin(dLat/2) * Math.sin(dLat/2) +
+
+Math.cos(lat1 * Math.PI/180) * Math.cos(lat2 * Math.PI/180) *
+
+Math.sin(dLon/2) * Math.sin(dLon/2);
+
+const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+
+return R * c;
+
+}
+
+</script>
+
+</body>
+
+</html>
+
+
